@@ -1,11 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Firebase;
+using Firebase.Database;
+using Firebase.Unity;
+
 
 public class LoadingSceneController : MonoBehaviour
 {
+
+    /*/
+
     static string nextScene;
 
     [SerializeField]
@@ -50,4 +58,5 @@ public class LoadingSceneController : MonoBehaviour
             }
         }
     }
+    /*/
 }
